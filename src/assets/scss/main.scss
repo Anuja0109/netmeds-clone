@@ -1,0 +1,41 @@
+@import 'owl.carousel/dist/assets/owl.carousel.css';
+@import 'owl.carousel/dist/assets/owl.theme.default.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Blank-Theme-Icons';
+  src: url('//db.onlinewebfonts.com/t/d488a994f5f30c38576ddd13498db317.eot');
+  src: url('//db.onlinewebfonts.com/t/d488a994f5f30c38576ddd13498db317.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/d488a994f5f30c38576ddd13498db317.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/d488a994f5f30c38576ddd13498db317.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/d488a994f5f30c38576ddd13498db317.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/d488a994f5f30c38576ddd13498db317.svg#Blank-Theme-Icons')
+      format('svg');
+}
+
+#root {
+  width: 100% !important;
+  max-width: 100%;
+  overflow: hidden;
+  height: 100% !important;
+  font-family: 'Lato' !important;
+  margin: 0 !important;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #f6f6f7;
+}
+
+.divider {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}

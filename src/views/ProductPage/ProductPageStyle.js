@@ -1,0 +1,162 @@
+import { makeStyles } from '@material-ui/core/styles';
+
+const productPageStyle = makeStyles(() => ({
+  productPage: {},
+  productTop: {
+    background: '#fff',
+    margin: '0 0 16px',
+    borderRadius: '8px',
+    padding: '24px',
+    fontSize: '12px',
+    boxShadow: '0 1px 1px 0 rgba(171,169,169,.1)',
+  },
+  leftBlock: {
+    // width: 47%,
+    float: 'left',
+    display: 'block',
+    paddingRight: '15px',
+  },
+  productMedia: {
+    padding: '15px',
+    float: 'right',
+    textAlign: 'center',
+    margin: 0,
+    overflow: 'hidden',
+  },
+  rightBlock: {
+    float: 'right',
+    display: 'block',
+    paddingLeft: '15px',
+  },
+  productDetails: {
+    float: 'left',
+    '& h1': {
+      fontFamily: 'Lato',
+      fontSize: '20px',
+      letterSpacing: '.25px',
+      display: 'block',
+      padding: '4px 0',
+      color: '#151b39',
+    },
+  },
+  productHeadLink: {
+    textDecoration: 'none',
+    backgroundColor: 'transparent',
+    '& span': {
+      background: '#f6f6f7',
+      height: '20px',
+      lineHeight: '20px',
+      display: 'inline-block',
+      borderRadius: '2px',
+      padding: '0 5px',
+      fontSize: '12px',
+      fontFamily: 'Lato',
+      color: '#6f7284',
+      maxWidth: '78%',
+      width: 'auto',
+      whiteSpace: 'nowrap',
+      overflow: 'hidden',
+      marginRight: '5px',
+      textOverflow: 'ellipsis',
+    },
+  },
+  ratingLink: {
+    textDecoration: 'none',
+    color: 'inherit',
+    display: 'inline-flex',
+  },
+  ratingSpan: {
+    fontSize: '15px',
+    fontWeight: 600,
+    color: '#73c330',
+  },
+  ratingCount: {
+    marginTop: '-9px !important',
+    marginLeft: '5px',
+  },
+  reviewsCounts: {
+    fontSize: '14px',
+    paddingLeft: '6px',
+    fontFamily: 'Lato',
+  },
+  essentials: {
+    margin: '15px 0 0',
+  },
+  priceBox: {
+    fontFamily: 'Lato',
+    float: 'left',
+  },
+  finalPrice: {
+    color: '#ef4281',
+    fontFamily: 'Lato',
+    fontWeight: 700,
+    fontSize: '20px !important',
+    display: 'block',
+  },
+  bestPrice: {
+    fontSize: '16px !important',
+    color: '#6f7284 !important',
+    fontFamily: 'Lato',
+    fontWeight: 700,
+    display: 'initial',
+  },
+  price: {
+    margin: '2px 0 2px 0',
+    color: '#6f7284 !important',
+    fontFamily: 'Lato',
+    display: 'block',
+    float: 'left',
+  },
+  off: {
+    color: '#378f30',
+    display: 'inline-block !important',
+    fontFamily: 'Lato',
+    fontWeight: 700,
+    fontSize: '11px',
+    marginRight: 0,
+    marginTop: 0,
+    padding: '2px 6px 0 0',
+    textAlign: 'center',
+    textTransform: 'uppercase',
+  },
+  tax: {
+    color: '#6f7284',
+    width: '100%',
+    display: 'block',
+  },
+  returnProduct: {
+    color: '#6f7284 !important',
+    marginBottom: '4px !important',
+    display: 'none !important',
+    visibility: 'hidden !important',
+  },
+  drugMenu: {
+    color: '#6f7284',
+    display: 'block',
+    fontFamily: 'Lato',
+    fontStyle: 'italic',
+    height: '18px',
+    lineHeight: '16px',
+    overflow: 'hidden',
+    whiteSpace: 'nowrap',
+    width: 'auto',
+  },
+  drugMenuLink: {
+    color: '#6f7284',
+    fontSize: '12px',
+    textDecoration: 'none',
+  },
+  originText: {
+    textOverflow: 'ellipsis',
+  },
+  boxToCart: {
+    display: 'inline-flex',
+    marginTop: '16px',
+    textAlign: 'right',
+  },
+  addToCartForm: {
+    display: 'flex',
+  },
+}));
+
+export default productPageStyle;
